@@ -138,3 +138,44 @@ nav svg{
     color: aliceblue;
     background-color: rgb(222, 2, 2);
 }
+
+.movies {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 80vw; 
+    overflow-x: scroll;
+    margin: auto;
+    padding: 10px 0;
+    scrollbar-width: none;
+}
+
+.movies{
+    mask-image: linear-gradient(to right, black 92%, transparent);
+}
+
+.movies li {
+    list-style: none;
+    height: 38vh;
+}
+
+.movies li img {
+    object-fit: cover;
+    height: 100%;
+    width: auto;  
+    border-radius: 30px;
+}
+.scroll {
+    width: 92vw;
+    margin: 40px auto; 
+    position: relative;
+}
+
+.scroll .text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
